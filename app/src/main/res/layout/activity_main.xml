@@ -36,14 +36,13 @@
         android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/add"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
+        android:src="@drawable/add"
         app:backgroundTint="@android:color/white"
-        app:tint="@android:color/holo_red_dark"
         app:rippleColor="@android:color/darker_gray"
-        />
+        app:tint="@android:color/holo_red_dark" />
 
 </RelativeLayout>
